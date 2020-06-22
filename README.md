@@ -5,4 +5,5 @@ Custom Python script which can parse Nessus Results and Validate SSL/TLS related
 
 ###### Usage:
 python NessusValidator.py and input nessus result filename (*.csv)
+
 ![alt text](https://github.com/rootsploit/NessusValidator/blob/master/usage.jpg?raw=true)
