@@ -2,7 +2,7 @@ import csv
 import time
 import os
 
-file1=input("Enter Nessus Report File Name \n")
+file1=input("Enter Nessus Report File Name > ")
 file2=os.path.splitext(file1)[0]
 
 #---------------- Sort SSl ----------------
