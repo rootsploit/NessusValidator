@@ -1,5 +1,5 @@
 # NessusValidator
-Python Scripts to parse Nessus Results
+Python Scripts to run nmap SSL scans by parsing Nessus Results
 
 Custom Python script which can parse Nessus Results and Validate SSL/TLS related issues using nmap scripts.
 
