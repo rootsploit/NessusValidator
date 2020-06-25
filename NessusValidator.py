@@ -29,5 +29,6 @@ for ip in ip_addr:
         ports = str(ip_addr[ip])
         for char in removeChars:
             ports=ports.replace(char, "")
-        cmd = "nmap -Pn -sV --script ssl-enum-ciphers {1} -p {0} -oX {2}_{1}.xml".format(ports,ip,file2)            
+        cmd = "nmap -Pn -n -sV --script ssl-enum-ciphers {1} -p {0} -oA {2}_{1}.xml".format(ports,ip,file2)            
         print (cmd)
+        os.system(cmd)
